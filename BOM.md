@@ -23,7 +23,7 @@
 | [5-Way Joystick & Push Buttons](https://store.roboticsbd.com/electronics-module/2317-5-way-tactile-navigation-switch-robotics-bangladesh.html) | Device navigation and input controls | 3 | $1.00 | $3.00 | [RoboticsBD](https://store.roboticsbd.com/electronics-module/2317-5-way-tactile-navigation-switch-robotics-bangladesh.html) |
 | [Passive Components (Resistors, Capacitors, Switch)](https://store.roboticsbd.com/capacitor/1493-22uf-50v-capacitor-pack-of-5-robotics-bangladesh.html) | Circuit filtering and power control | 1 | $2.00 | $2.00 | [RoboticsBD](https://store.roboticsbd.com/capacitor/1493-22uf-50v-capacitor-pack-of-5-robotics-bangladesh.html) |
 | **Parts subtotal** | — | — | — | **$37.50** | — |
-| **Tax & shipping** | — | — | — | **$20.00** | — |
-| **Total** | — | — | — | **$57.50** | — |
+| **Tax & shipping** | — | — | — | **$25.00** | — |
+| **Total** | — | — | — | **$62.50** | — |
 
-$7.50 left of the tier's funding.
+$2.50 left of the tier's funding.
