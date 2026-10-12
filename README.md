@@ -1,38 +1,39 @@
-# AeroDeck-S3
-ESP32-S3 &amp; CC1101 based portable wireless security auditing &amp; RF analysis tool.
+# AeroDeck
+A compact, custom-designed handheld wireless and RF auditing tool built around the ESP32-C5-WROOM-1 module and sub-1GHz radio modules, tailored specifically within a 65 dollar Hack Club budget.
 
-October 6, 2026: Day 1 - Research, Feasibility & Component Selection
-Session Summary:
+---
 
-Started the AeroDeck-3S project from absolute scratch! Since I am new to custom PCB design and RF hardware, I spent today's entire session understanding the core mechanics of the project. I brainstormed the project scope, compared ESP32-S3 against other controllers (like Flipper Zero's STM32), and finalized the Bill of Materials (BOM).
+## 🚀 Project Overview & Concept
+AeroDeck is engineered to be a powerful, portable multi-protocol wireless security auditing and RF analysis device. Designed entirely from scratch, the project integrates advanced wireless standards, efficient power management, and user-friendly controls into a sleek handheld form factor.
 
-Key Learnings & Progress:
+---
 
-Understood how the ESP32-S3 serves as the main brain, running dual-core Wi-Fi/BLE processing alongside SPI and I2C peripherals.
+## 🧠 Microcontroller Research & Selection
+* **Why ESP32-S3 Wasn't Enough:** While popular, the ESP32-S3 fell short of the advanced power efficiency, modern processor architecture, and cutting-edge wireless standards required for a dedicated multi-protocol RF auditing device.
+* **Selection of the ESP32-C5-WROOM-1:** After careful research and budgeting for the 65 dollar Hack Club limit, the **ESP32-C5** was chosen as the core microcontroller. It features a modern **RISC-V single-core architecture**, native support for **Wi-Fi 6 (802.11ax) and Bluetooth 5**, and seamless compatibility with the sub-1GHz CC1101 radio module.
 
-Researched the CC1101 Sub-1GHz RF module to learn how it captures and transmits 315/433/868/915 MHz radio waves.
+---
 
-Designed the power architecture: USB Type-C ➔ TP4056 Battery Charger ➔ 3.3V LDO Voltage Regulator.
+## ⚙️ Schematic Design & Hardware Architecture
+* **Learning Curve & Software Workflow:** Mastered EasyEDA through video tutorials, overcoming initial design hurdles, establishing frequent saving habits, and ensuring absolute precision in schematic capture.
+* **Power Management Architecture:** Designed a robust dual-rail power system featuring a USB Type-C port equipped with 5.1k CC resistors for proper power negotiation, a TP4056 battery charger, a LiPo battery, a slide switch, and a TPS63020 buck-boost regulator to maintain a clean, stable 3.3V rail separated safely from the 5V input.
+* **Peripherals & Pin Mapping:**
+  * Configured a shared SPI bus connecting the CC1101 Sub-1GHz RF module and the MicroSD card socket.
+  * Assigned the I2C bus for the 0.96-inch OLED display.
+  * Integrated a 5-way joystick, reset and boot buttons with proper filtering capacitors, and a 6-pin expansion header for future peripherals.
+* **Through-Hole Component Adaptation:** Converted standard surface-mount resistors, capacitors, and switches into through-hole packages to ensure effortless hand-soldering and robust physical assembly.
 
-Decided on adding a 6-pin expansion header (UART/I2C) for future add-ons like GPS, I2S Microphones, or Speakers.
+---
 
-No physical PCB traces drawn yet, but gained 80%  clarity on component selection and schematic architecture.
+## 🛠️ PCB Layout, Routing, & Manufacturing Prep
+* **Component Placement:** Arranged components strategically within a compact 90x65 mm double-layer board layout, keeping trace lengths as short as possible to minimize signal noise and interference.
+* **Routing & Clearance Optimization:** Utilized automated tracking tools to handle initial trace generation, followed by meticulous manual routing and clearance adjustments to resolve overlapping tracks and achieve full connectivity.
+* **Manufacturing Readiness:** Generated and backed up project source files alongside the final Gerber (.zip) packages, preparing the board for fabrication.
 
-October 7, 2026: Day 2 - Deep Dive into ESP32-S3 Pinouts & Module Workflows
-Session Summary:
+---
 
-Dedicated today's session entirely to technical learning and understanding module compatibility via YouTube tutorials and technical documentation. Focus was placed on mapping out the ESP32-S3 architecture and making sure I don't accidentally assign peripheral functions to restricted or strapping pins.
-
-Key Learnings & Progress:
-
-Researched ESP32-S3 GPIO allocations: learned which pins are safe for general use, which are dedicated for flash/PSRAM, and which pins support native hardware SPI/I2C.
-
-Studied power regulations and voltage requirements for individual modules (ensuring 3.3V tolerance on CC1101 and OLED).
-
-Explored code upload workflows, USB-to-UART bridging versus Native USB flashing on the ESP32-S3, and basic firmware structure for driving the CC1101 transceiver.
-
-No schematic drawing started in this session, but built the technical groundwork required before launching EasyEDA.
-
-Time spent this session: 2.5 hours
-
+## 📂 Repository Structure
+* `/pcb` — EasyEDA schematic and board layout source files.
+* `/gerber` — Manufacturing-ready Gerber export packages.
+* `/firmware` — Starter code, pin definitions, and hardware initialization scripts for the ESP32-C5.
 
