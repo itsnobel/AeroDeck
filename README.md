@@ -2,7 +2,7 @@
 A compact, custom-designed handheld wireless and RF auditing tool built around the ESP32-C5-WROOM-1 module and sub-1GHz radio modules, tailored specifically within a 65 dollar Hack Club budget.
 
 ![AeroDeck PCB Layout](Screenshot 2026-10-11 231923.png)
-
+(image.png)
 ---
 
 ## 🚀 Project Overview & Concept
