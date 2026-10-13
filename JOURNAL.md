@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A compact, ESP32-S3 powered handheld signal monitoring and wireless network diagnostic tool. Features an integrated OLED display, navigation switches, and a CC1101 Sub-1GHz RF transceiver module for auditing RF signals and analyzing 2.4GHz Wi-Fi network health.
+> A compact, ESP32-5S powered handheld signal monitoring and wireless network diagnostic tool. Features an integrated OLED display, navigation switches, and a CC1101 Sub-1GHz RF transceiver module for auditing RF signals and analyzing 2.4GHz Wi-Fi network health.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |

@@ -24,7 +24,7 @@
 | [Passive Components (Resistors, Capacitors, Switch)](https://store.roboticsbd.com/capacitor/1493-22uf-50v-capacitor-pack-of-5-robotics-bangladesh.html) | Circuit filtering and power control | 1 | $2.00 | $2.00 | [RoboticsBD](https://store.roboticsbd.com/capacitor/1493-22uf-50v-capacitor-pack-of-5-robotics-bangladesh.html) |
 | [2.4GHz/5GHz Antenna with U.FL/IPEX Pigtail Cable](https://www.bdtronics.com/rp-sma-female-to-ipex-u-fl-ipx-rf-plug-pigtail-cable-for-wifi-antenna-15cm-length.html) | External antenna for ESP32-C5-WROOM-1U Wi-Fi and Bluetooth | 1 | $1.50 | $1.50 | [BDtronics](https://www.bdtronics.com/rp-sma-female-to-ipex-u-fl-ipx-rf-plug-pigtail-cable-for-wifi-antenna-15cm-length.html) |
 | **Parts subtotal** | — | — | — | **$40.00** | — |
-| **Tax & shipping** | — | — | — | **$25.00** | — |
-| **Total** | — | — | — | **$65.00** | — |
+| **Tax & shipping** | — | — | — | **$20.00** | — |
+| **Total** | — | — | — | **$60.00** | — |
 
-$0.00 left of the tier's funding.
+$5.00 left of the tier's funding.
