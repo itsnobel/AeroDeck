@@ -1,6 +1,6 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
 ESP32-C5-WROOM-1U,1,LCSC,$6.27,$6.27,https://www.lcsc.com/product-detail/C54951857.html?s_z=s_p_ESP32-C5-WROOM-1U-N16R8-V1.2
-CC1101 Sub-1GHz RF Module,1,BDtronics,$9.00,$9.00,https://www.bdtronics.com/cc1101-433mhz-wireless-rf-transceiver-module-with-sma-antenna.html
+CC1101 Sub-1GHz RF Module,1,LCSC,$1.95,$1.95,https://www.lcsc.com/product-detail/C29953.html?s_z=n_q_p_CC1101%2520Sub-1GHz%2520RF%2520Module
 "0.96-inch OLED Display (128x64, I2C)",1,RoboticsBD,$4.00,$4.00,https://store.roboticsbd.com/arduino-shield/1328-096-inch-i2c-oled-display-white-robotics-bangladesh.html
 TPS63020 Buck-Boost Regulator,1,RoboticsBD,$4.00,$4.00,https://store.roboticsbd.com/power-module-adapter/2656-tps63020-automatic-buck-boost-step-up-down-power-supply-module-5v-robotics-bangladesh.html
 TP4056 LiPo Battery Charger Module,1,RoboticsBd,$1.00,$1.00,https://store.roboticsbd.com/robotics-parts/919-tp4056-lithium-battery-charger-module-with-protection-dual-functions-robotics-bangladesh.html
