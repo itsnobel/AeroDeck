@@ -1,13 +1,2 @@
 Item,Qty,Supplier,Cost/item,Total Cost,link
-ESP32-C5-WROOM-1U,1,LCSC,$6.27,$6.27,https://www.lcsc.com/product-detail/C54951857.html?s_z=s_p_ESP32-C5-WROOM-1U-N16R8-V1.2
-CC1101 Sub-1GHz RF Module,1,LCSC,$1.95,$1.95,https://www.lcsc.com/product-detail/C29953.html?s_z=n_q_p_CC1101%2520Sub-1GHz%2520RF%2520Module
-"0.96-inch OLED Display (128x64, I2C)",1,LCSC,$4.55,$4.55,https://www.lcsc.com/product-detail/C7465997.html?s_z=n_q_p_0.96-inch%2520OLED%2520Display%2520%28128x64%252C%2520I2C%29
-TPS63020 Buck-Boost Regulator,1,LCSC,$5.03,$5.03,https://www.lcsc.com/product-detail/C2876554.html?s_z=n_q_TPS63020%2520Buck-Boost%2520Regulator
-TP4056 LiPo Battery Charger Module,1,LCSC,$0.60,$0.60,https://www.lcsc.com/product-detail/C382139.html?s_z=n_q_p_TP4056%2520LiPo%2520Battery%2520Charger%2520Module
-3.7V LiPo Battery,1,Aliexpress,$8.09,$8.09,https://www.aliexpress.us/item/3256808681500642.html?spm=a2g0o.productlist.main.2.49c67a37qPOA0A&algo_pvid=f3dec9c2-1902-4420-9af8-25c0b46935ec&algo_exp_id=f3dec9c2-1902-4420-9af8-25c0b46935ec-1&pdp_ext_f=%7B%22order%22%3A%22870%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2113.05%218.09%21%21%2186.88%2153.86%21%402141137e17921770271586886e0f08%2112000047018637633%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acf4449fd%3Bm03_new_user%3A-29895&curPageLogUid=fkmNXIwwVet7&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008867815394%7C_p_origin_prod%3A
-USB Type-C Connector & CC Resistors,1,LCSC,$0.86,$0.86,https://www.lcsc.com/product-detail/C165948.html?s_z=n_q_p_USB%2520Type-C%2520Connector
-MicroSD Card Socket,1,LCSC,$1.16,$1.16,https://www.lcsc.com/product-detail/C277674.html?s_z=n_q_p_MicroSD%2520Card%2520Socket
-5-Way Joystick & Push Buttons,3,LCSC,$0.97,$2.91,https://www.lcsc.com/product-detail/C145910.html?s_z=n_q_p_5-Way%2520Joystick%2520Buttons
-"Passive Components (Resistors, Capacitors, Switch)",2,LCSC,$0.71,$1.42,https://www.lcsc.com/product-detail/C57436.html?s_z=n_q_p_10k%2520ohm%2520resistor
-2.4GHz/5GHz Antenna with U.FL/IPEX Pigtail Cable,1,LCSC,$3.16,$3.16,https://www.lcsc.com/product-detail/C152350.html?s_z=n_q_p_2.4GHz%252F5GHz%2520Antenna%2520with%2520U.FL%252FIPEX%2520Pigtail%2520Cable
-Estimated total shipping,1,,,$25.00,
+Estimated total shipping,1,,,$0.00,
