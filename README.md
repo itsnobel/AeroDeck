@@ -36,6 +36,21 @@ AeroDeck is engineered to be a powerful, portable multi-protocol wireless securi
 * **Manufacturing Readiness:** Generated and backed up project source files alongside the final Gerber (.zip) packages, preparing the board for fabrication.
 * <img width="854" height="674" alt="Screenshot 2026-10-12 224936" src="https://github.com/user-attachments/assets/5cd85131-935d-47fa-a71c-d1bb48263a7e" />
 
+## Enclosure & 3D CAD Design
+
+For **Week 2**, a custom two-piece protective enclosure was designed in CAD to house all **AeroDeck** hardware components cleanly and securely. 
+
+
+### Key Design Features:
+* **Two-Piece Shell Architecture:** Designed with a main bottom housing and a top faceplate featuring corner alignment tabs for secure assembly.
+* **Component Cutouts:** Precise openings modeled for the **0.96-inch OLED screen**, navigation switches/joystick, and external antenna/USB-C ports.
+* **Internal Mounting Standoffs:** Built-in internal supports and wall channels to hold the main AeroDeck PCB and 3.7V LiPo battery firmly in place without loose movement.
+* **Tolerances & Clearance:** Designed with standard 3D-printing tolerances to ensure all physical modules fit snugly upon printing.
+* <img width="1254" height="868" alt="Screenshot 2026-10-20 153041" src="https://github.com/user-attachments/assets/28dccef7-5876-4abf-b227-df8100ec9dfc" />
+
+
+All source CAD files (`.f3d` and `.3mf`) are available in the `/3D Files` directory.
+
 
 ---
 
