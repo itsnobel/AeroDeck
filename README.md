@@ -37,23 +37,25 @@ AeroDeck is engineered to be a powerful, portable multi-protocol wireless securi
 
 ## Enclosure & 3D CAD Design
 
-For **Week 2**, a custom two-piece protective enclosure was designed in CAD to house all **AeroDeck** hardware components cleanly and securely. 
+For **Week 2**, a custom two-piece protective enclosure was designed in CAD to house all AeroDeck hardware components cleanly and securely and ensure a mobile device without causing wiring trouble. 
 
 
 ### Key Design Features:
-* **Two-Piece Shell Architecture:** Designed with a main bottom housing and a top faceplate featuring corner alignment tabs for secure assembly.
-* **Component Cutouts:** Precise openings modeled for the **0.96-inch OLED screen**, navigation switches/joystick, and external antenna/USB-C ports.
+* **Two-Piece Shell Architecture:** Designed with a main bottom housing(for keeping the battery) and a top faceplate(mostly visible from the outside) that features corner alignment tabs for secure assembly.
+* **Component Cutouts:** Precise openings modeled for the 0.96-inch OLED screen, navigation switches, and external antenna and USB-C ports.
 * **Internal Mounting Standoffs:** Built-in internal supports and wall channels to hold the main AeroDeck PCB and 3.7V LiPo battery firmly in place without loose movement.
 * **Tolerances & Clearance:** Designed with standard 3D-printing tolerances to ensure all physical modules fit snugly upon printing.
 * <img width="1254" height="868" alt="Screenshot 2026-10-20 153041" src="https://github.com/user-attachments/assets/28dccef7-5876-4abf-b227-df8100ec9dfc" />
 
+
+And it would be best to print the whole thing by PLA filament as it has some moving part that will snap the battery in ensuring proper connection with the mainboard.
 
 All source CAD files (`.f3d` and `.3mf`) are available in the `/3D Files` directory.
 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 * `/pcb` — The EasyEDA schematic and board layout source files(.json).
 * `/gerber` — Manufacturing-ready Gerber export packages(.zip).
 * `/firmware` — Starter code, pin definitions, and hardware initialization scripts for the ESP32-C5.
