@@ -1,5 +1,5 @@
 # AeroDeck
-A compact, custom-designed handheld wireless and RF auditing tool built around the ESP32-C5-WROOM-1 module and sub-1GHz radio modules, tailored specifically within a 65 dollar Hack Club budget.
+A compact, custom-designed handheld wireless and RF auditing tool that is built with the help of the ESP32-C5-WROOM-1 module and sub-1GHz radio modules for cybersecurity project
 
 ![Aerodeck PCB design]<img width="1909" height="942" alt="image" src="https://github.com/user-attachments/assets/21f52694-b492-4a89-928e-6f4af16dd9a0" />
 
