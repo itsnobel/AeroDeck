@@ -19,13 +19,11 @@ AeroDeck is engineered to be a powerful, portable multi-protocol wireless securi
 ---
 
 ## Schematic Design & Hardware Architecture
-* **Learning Curve & Software Workflow:** Mastered EasyEDA through video tutorials, overcoming initial design hurdles, establishing frequent saving habits, and ensuring absolute precision in schematic capture.
-* **Power Management Architecture:** Designed a robust dual-rail power system featuring a USB Type-C port equipped with 5.1k CC resistors for proper power negotiation, a TP4056 battery charger, a LiPo battery, a slide switch, and a TPS63020 buck-boost regulator to maintain a clean, stable 3.3V rail separated safely from the 5V input.
+* **Learning Curve & Software Workflow:** Mastered EasyEDA through video tutorials and multiple initial design hurdles establishing frequent saving habits as i forgot to save the SAME PROJECT 3 TIMESSS!!!, and ensuring absolute precision in schematic capture.
+* **Power Management Architecture:** Designed a robust dual-rail power system with USB Type-C port equipped with 5.1k CC resistors for power negotiation, a TP4056 battery charger, a LiPo battery, a slide switch, and a TPS63020 buck-boost regulator to maintain  3.3V rail separated safely from the 5V input.
 * **Peripherals & Pin Mapping:**
-  * Configured a shared SPI bus connecting the CC1101 Sub-1GHz RF module and the MicroSD card socket.
-  * Assigned the I2C bus for the 0.96-inch OLED display.
-  * Integrated a 5-way joystick, reset and boot buttons with proper filtering capacitors, and a 6-pin expansion header for future peripherals.
-* **Through-Hole Component Adaptation:** Converted standard surface-mount resistors, capacitors, and switches into through-hole packages to ensure effortless hand-soldering and robust physical assembly.
+ I connected all the parts with the help of Ai as i was a beginner. I figured every path and its work by ai and it made me understand and do it by my own. In the process I learnt so many things.
+* **Through-Hole Component Adaptation:** Converted standard surface-mount resistors, capacitors, and switches into through-hole packages to ensure effortless hand-soldering. in the next update I will use the main dev board and header pins for more easu soldering.
 
 ---
 
