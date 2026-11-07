@@ -7,7 +7,7 @@ And
 ![Aerodeck PCB design](image.png)
 ---
 
-## 🚀 Project Overview & Concept!
+## Project Overview & Concept
 
 AeroDeck is engineered to be a powerful, portable multi-protocol wireless security auditing and RF analysis device. Designed entirely from scratch(used intrigated circuit), the project integrates advanced wireless standards, efficient power management, and user-friendly controls.
 ---
