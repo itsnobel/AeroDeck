@@ -7,14 +7,14 @@ And
 ![Aerodeck PCB design](image.png)
 ---
 
-## Project Overview & Concept
+## Overview & Concept
 
 AeroDeck is engineered to be a powerful, portable multi-protocol wireless security auditing and RF analysis device. Designed entirely from scratch(used intrigated circuit), the project integrates advanced wireless standards, efficient power management, and user-friendly controls.
 ---
 
 ##  Microcontroller Research & Selection
 * **Why ESP32-S3 Wasn't Enough:** While popular, the ESP32-S3 fell short of the advanced power efficiency(mainly because I wanted 5GHz wifi support), modern processor architecture, and cutting-edge wireless standards required for a dedicated multi-protocol RF auditing device.
-* **Selection of the ESP32-C5-WROOM-1:** After careful research and budgeting for the 65 dollar Hack Club limit, the **ESP32-C5** was chosen as the core microcontroller. It features a modern **RISC-V single-core architecture**, native support for **Wi-Fi 6 (802.11ax) and Bluetooth 5**, and seamless compatibility with the sub-1GHz CC1101 radio module.
+* **Selection of the ESP32-C5-WROOM-1:** After careful research and budgeting for the 65 dollar Hack Club limit, the **ESP32-C5** was chosen as the core microcontroller. It features a modern **RISC-V single-core architecture**, native support for Wi-Fi 6 (802.11ax) and Bluetooth 5, and seamless compatibility with the sub-1GHz CC1101 radio module.
 
 ---
 
