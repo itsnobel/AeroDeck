@@ -25,8 +25,8 @@ And
 
 ## PCB Layout, Routing, & Manufacturing Prep
 * **Component Placement:** Arranged components strategically within a compact 90x65 mm( maybe a little bit bigger as i expanded it later) double-layer board layout, keeping trace lengths as short as possible to minimize signal noise and interference.
-* **Routing & Clearance Optimization:** Utilized automated tracking tools to handle initial trace generation, followed by meticulous manual routing and clearance adjustments to resolve overlapping tracks and achieve full connectivity.
-* **Manufacturing Readiness:** Generated and backed up project source files alongside the final Gerber (.zip) packages, preparing the board for fabrication.
+* **Routing & Clearance Optimization:** Used auto routing as it was very easy to use. I set the minimum length of width .4mm. After finishing auto routing i fix some unfinished ones manually and then i made the 3v3 rail and GND more eider.
+* **Manufacturing Readiness:** Generated and backed up project source files and the final Gerber (.zip) packages.
 * <img width="854" height="674" alt="Screenshot 2026-10-12 224936" src="https://github.com/user-attachments/assets/5cd85131-935d-47fa-a71c-d1bb48263a7e" />
 
 ## Enclosure & 3D CAD Design
