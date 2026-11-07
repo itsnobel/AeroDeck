@@ -7,10 +7,6 @@ And
 ![Aerodeck PCB design](image.png)
 ---
 
-## Overview & Concept
-
-AeroDeck is engineered to be a powerful, portable multi-protocol wireless security auditing and RF analysis device. Designed entirely from scratch(used intrigated circuit), the project integrates advanced wireless standards, efficient power management, and user-friendly controls.
----
 
 ##  Microcontroller Research & Selection
 * **Why ESP32-S3 Wasn't Enough:** While popular, the ESP32-S3 fell short of the advanced power efficiency(mainly because I wanted 5GHz wifi support), modern processor architecture, and cutting-edge wireless standards required for a dedicated multi-protocol RF auditing device.
