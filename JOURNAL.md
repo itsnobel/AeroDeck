@@ -105,7 +105,13 @@ No schematic drawing started in this session, but built the technical groundwork
 
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b9fcd99bf29675716bdf38989f88f6617235889bd663ef883b468397def4e047.png)
 
- Full EasyEDA Schematic Wiring & Electrical AuditingSession Summary:Worked continuously for over 2 hours on building the primary schematic for AeroDeck-3S in EasyEDA. Placed all major modules (ESP32-S3-WROOM-1, CC1101, MicroSD socket, TP4056, AMS1117, OLED screen, and 5-way navigation switch) and mapped out their pin-to-pin signal and power traces. Audited the full schematic to resolve critical wiring errors before moving to PCB routing.Key Progress & Technical Fixes:USB Type-C & Power Negotiation: Successfully wired the USB Type-C connector with $5.1\text{ k}\Omega$ pull-down resistors on CC1 and CC2 pins to enable standard C-to-C power delivery.   Power Rail Separation: Identified and separated the 5V VBUS rail from the 3.3V system power rail to prevent overvoltage damage to the ESP32-S3.   LDO & Charger Wiring: Fixed the AMS1117-3.3 pin mapping, routing OUT+ from TP4056 into VIN and deriving clean 3.3V from VOUT.   Bus Assignments: Corrected SPI lines for CC1101 and MicroSD card socket, and adjusted I2C pins (SDA $\to$ IO8, SCL $\to$ IO9) for the OLED screen.   Schematic layout is nearly complete and electrically audited. Next step: converting to 2-layer PCB layout!Time spent this session: 2 hours 3 minutes
+EasyEDA Schematic Wiring & Electrical Audit Summary
+
+I have been hard at work for over 2 hours designing my main schematic for AeroDeck-3S. All of my main components have been added (ESP32-S3-WROOM-1, CC1101, MicroSD slot, TP4056, AMS1117, OLED display and 5-way joystick). All connections between the pins on each module have been added. The schematic has been fully audited to ensure no major connection issues.
+
+Progress & Fixes
+
+USB Type-C Connection: The USB Type-C connector was connected using pull down resistors of $5.1\text{ k}\Omega$ on the CC1 and CC2 pins so a regular power delivery can be used. Separating 5V VBUS and 3.3V power rails: Identified 5V VBUS and 3.3V rails were separate to prevent any over-voltage to the ESP32-S3. AMS1117-3.3 pin connections fixed: OUT+ pin from TP4056 was connected to VIN. 3.3V was taken from VOUT. SPI lines corrected on CC1101 and MicroSD slot. SDA and SCL pins changed to IO8 and IO9 respectively on OLED display. The schematic is almost complete and has been fully audited. Time to convert to a 2 layer PCB
 
 [Timelapse](https://lookout.hackclub.com/api/media/41ae876c-6752-4e38-bf58-a8983e643a9f/video.mp4)
 
