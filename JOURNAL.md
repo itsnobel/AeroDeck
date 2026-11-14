@@ -14,7 +14,7 @@
 
 ## Contents
 
-1. [2026-10-07: October 6, 2026: Day 1 - Research, Feasibility & Component Selection](#2026-10-07-october-6-2026-day-1---research-feasibility-compo)
+1. [2026-10-07: October 6th 2026 - Day 1 Research, Feasibility & Component Selection](#2026-10-07-october-6th-2026---day-1-research-feasibility-com)
 2. [2026-10-07: ![Screenshot 2026-10-08 001628](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b51d8f759856a115e7db76b8017f79a4948248881909a8f0cb7936c496ca469e.png)](#2026-10-07-screenshot-2026-10-08-001628httpshalflifehackclub)
 3. [2026-10-11: Microcontroller Research & Selection](#2026-10-11-microcontroller-research-selection)
 4. [2026-10-11: Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time.](#2026-10-11-firstly-i-learnt-how-to-use-the-software-easyeda-)
@@ -24,29 +24,37 @@
 
 ## Design
 
-### 2026-10-07: October 6, 2026: Day 1 - Research, Feasibility & Component Selection
+### 2026-10-07: October 6th 2026 - Day 1 Research, Feasibility & Component Selection
 
 **3.5h**
 
-October 6, 2026: Day 1 - Research, Feasibility & Component Selection
+October 6th 2026 - Day 1 Research, Feasibility & Component Selection
 
-Key Learnings & Progress:
+Things Learnt-
 
-Understood how the ESP32-S3 serves as the main brain, running dual-core Wi-Fi/BLE processing alongside SPI and I2C peripherals.
+ESP32-S3 main microcontroller with two core Wi-Fi/ BLE processor, SPI & I2C peripherals.
 
-Researched the CC1101 Sub-1GHz RF module to learn how it captures and transmits 315/433/868/915 MHz radio waves.
+Research on CC1101 Sub-1GHz RF Module to understand how it receives/transmits the RF wave of 315/433/868/915 MHz.
 
-Designed the power architecture: USB Type-C ➔ TP4056 Battery Charger ➔ 3.3V LDO Voltage Regulator.
+Power Supply was designed. From USB Type-C to TP4056 Battery Charger to 3.3V LDO Voltage Regulator.
 
-Decided on adding a 6-pin expansion header (UART/I2C) for future add-ons like GPS, I2S Microphones, or Speakers.
-No physical PCB traces drawn yet, but gained 80%  clarity on component selection and schematic architecture.
+Added 6 pin Expansion header to allow for UART/I2C connections in the future to allow for add ons such as GPS, I2S Microphones/Speakers.
 
- Also I modified github repo on this project and I'm also a beginner in github so it took some time understanding the interface. I use Gemini to make me understand everything in all steps.  And even most o the session words are written by Gemini. I personally chose this Ai as I use this tool for research for a long time and it knows my preference. i figured it out how to use laps to monitor my working session though i havent activated it. I created my account in EasyEDA
+No PCB traces were drawn, however I have 80% clarity on what components to use and layout of the schematic.
 
-![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/db5b3fb97d46986e5ca36e62065674cd178db75e322da34aaa632970c8e553fd.png)
+Also played around with the github repo for this project. As I am new to GitHub it took me time to get to grips with. I used Gemini to fully understand everything. Most of the words in this session were written by Gemini. I chose this Ai as I have been using it for research for a while now so it knows what I like. I have figured out how to use laps to track my session (but have not turned it on). I have created an account on EasyEDA
+
+I was researching with gemini. And was learning what to say in idea reel and other rules-
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/91a01a29925c21c5145a5d9a898dcc8d2a14f3eef0d5905ff168dff49b6e6a1b.png)
+
+A research by gemini about Aerodeck im going to  build
+
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/ee06a99eba89f98d38be315461037a4633479dc9e6516aa6c5033c03538d770c.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/93ba16ff6a4368cbae8d06c1af60c639b790070d08982ba4021176957d819e34.png)
+
+easyEDA home page after i logged in:
 
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/770e7d4629452cbfc721bc2dc0ce2c73c29a8d4cb5a4a188413fe8f36fb9c078.png)
 
