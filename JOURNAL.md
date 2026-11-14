@@ -18,7 +18,7 @@
 2. [2026-10-07: 6th October 2026 - Day 1 - Research, Feasibility & Component Selection](#2026-10-07-6th-october-2026---day-1---research-feasibility-c)
 3. [2026-10-11: Limitations of the ESP32-S3: Initially I had planned to use the popular ESP32-S3, but this did not meet the specifications of the high level power savings, modern processor and latest wireless protoco](#2026-10-11-limitations-of-the-esp32-s3-initially-i-had-plann)
 4. [2026-10-11: Easyeda dont save user progress even it it is saved. I did the whole schematic design before. but this time i had to start from scrach again. such a rage baiting thing : )](#2026-10-11-easyeda-dont-save-user-progress-even-it-it-is-sav)
-5. [2026-10-11: I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfec](#2026-10-11-i-was-thinking-it-was-my-fault-that-i-didnt-save-)
+5. [2026-10-11: i have to start from zero again for eseyeda's not saving problem. I spent f around 30 mins finding where my project went to, then started timelaps ., this time i did wiring perfectly as i tried these](#2026-10-11-i-have-to-start-from-zero-again-for-eseyedas-not-)
 6. [2026-10-11: My finishing part is here, And now the work is to submit the PCb design!](#2026-10-11-my-finishing-part-is-here-and-now-the-work-is-to-)
 7. [2026-11-13: In this session i was going to change the whole design, though it will work the same and get extra new features. I am a beginner so i cant solder tough chips. so i willl soldier headers then attach to](#2026-11-13-in-this-session-i-was-going-to-change-the-whole-d)
 
@@ -152,13 +152,29 @@ then made the lines again
 
 [Timelapse](https://lookout.hackclub.com/api/media/14425ca1-b0b4-46d4-a2af-26d766752c78/video.mp4)
 
-### 2026-10-11: I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfec
+### 2026-10-11: i have to start from zero again for eseyeda's not saving problem. I spent f around 30 mins finding where my project went to, then started timelaps ., this time i did wiring perfectly as i tried these
 
 **3.5h**
 
-I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfectly as i tried these a several times. After wiring them perfectly, i moved o to PCB design. Firstly i assembled the whole circuit according to my preference and made the wires as short as possible to avoid ,misconnections. Then i finally conformed the layout and run auto track. for this complex circuit some circuit didnt work because of complex wiring, i manually set the tracks.
+i have to start from zero again for eseyeda's not saving problem. I spent f around 30 mins finding where my project went to, then started timelaps ., this time i did wiring perfectly as i tried these a several times. After wiring them perfectly, i moved o to PCB design.This time i made the schematic more good looking than previous with some extra components. it can be said that it is a upgrade. Firstly i assembled the whole circuit according to my preference and made the wires as short as possible to avoid ,misconnections. Then i finally conformed the layout and run auto track.
 
+Updating to PCB-
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/df2a77294e9fd59a7b08ab744a50a80f6daf664187cd4639bc2cc8dd5596c493.png)
+ i was trying to replace the plain resistors and capasitors by the hole ones as they are more easy to soldier.
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/8cae94a0a496d310b8dc4c3c448dd5035116bc9fcc9b5d4227a56bb415f04640.png)
+
+placed all the components properly-
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/8b891c24979d9a7f39167dfdf91267129c2ad6915655278a8ecc548114b2957f.png)
+
+routed them several times by auto route. then decided to go manual, but that was too hard so i used aurto route.
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/3f06aed62aa04bce2dbc75088278b4937d7aea8b0e77aeadfb0d2cf531f9e27b.png)
+still some there are some failure
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/030a62e5185b761c7525b4a86065d4afaf23afc53a72d796f86b04482ccab044.png)
+This is how it looks
 
 [Timelapse](https://lookout.hackclub.com/api/media/dd7ead4e-b441-47f3-9ac6-d60749c65763/video.mp4)
 
