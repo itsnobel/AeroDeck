@@ -17,7 +17,7 @@
 1. [2026-10-07: October 6th 2026 - Day 1 Research, Feasibility & Component Selection](#2026-10-07-october-6th-2026---day-1-research-feasibility-com)
 2. [2026-10-07: 6th October 2026 - Day 1 - Research, Feasibility & Component Selection](#2026-10-07-6th-october-2026---day-1---research-feasibility-c)
 3. [2026-10-11: Limitations of the ESP32-S3: Initially I had planned to use the popular ESP32-S3, but this did not meet the specifications of the high level power savings, modern processor and latest wireless protoco](#2026-10-11-limitations-of-the-esp32-s3-initially-i-had-plann)
-4. [2026-10-11: Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time.](#2026-10-11-firstly-i-learnt-how-to-use-the-software-easyeda-)
+4. [2026-10-11: Easyeda dont save user progress even it it is saved. I did the whole schematic design before. but this time i had to start from scrach again. such a rage baiting thing : )](#2026-10-11-easyeda-dont-save-user-progress-even-it-it-is-sav)
 5. [2026-10-11: I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfec](#2026-10-11-i-was-thinking-it-was-my-fault-that-i-didnt-save-)
 6. [2026-10-11: My finishing part is here, And now the work is to submit the PCb design!](#2026-10-11-my-finishing-part-is-here-and-now-the-work-is-to-)
 7. [2026-11-13: In this session i was going to change the whole design, though it will work the same and get extra new features. I am a beginner so i cant solder tough chips. so i willl soldier headers then attach to](#2026-11-13-in-this-session-i-was-going-to-change-the-whole-d)
@@ -133,11 +133,22 @@ but i researched wide range microcontrollers including Raspberry pi
 
 [Timelapse](https://lookout.hackclub.com/api/media/8ffb1def-f0a7-42ca-adf9-ed6b1d5292a1/video.mp4)
 
-### 2026-10-11: Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time.
+### 2026-10-11: Easyeda dont save user progress even it it is saved. I did the whole schematic design before. but this time i had to start from scrach again. such a rage baiting thing : )
 
 **2.98h**
 
-Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time. I upgraded some of the parts, Put on the scramatic design and mapped all the pins i will use in my design. Then i almost finished scramatic design , saved it and logged off.
+Easyeda dont save user progress even it it is saved. I did the whole schematic design before. but this time i had to start from scrach again. such a rage baiting thing : )
+
+I put al the parts again
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/2df872630e4c28965f9011e3bf08b4bf63ed8fe4cfe8de5cc31499773a1d5396.png)
+then organized them in order
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/a98f1df8c763fcf863b08419bb667d4c19301c41974163b658cf0f9961ac42df.png)
+then made the lines again
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/094d117553eee4bf8da98a80e8d0d654d3535f43da5e41583207bcf85abdd761.png)
+ i spent around 1 hour without recording. so i added that
 
 [Timelapse](https://lookout.hackclub.com/api/media/14425ca1-b0b4-46d4-a2af-26d766752c78/video.mp4)
 
