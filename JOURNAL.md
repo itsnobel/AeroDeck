@@ -15,7 +15,7 @@
 ## Contents
 
 1. [2026-10-07: October 6th 2026 - Day 1 Research, Feasibility & Component Selection](#2026-10-07-october-6th-2026---day-1-research-feasibility-com)
-2. [2026-10-07: ![Screenshot 2026-10-08 001628](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b51d8f759856a115e7db76b8017f79a4948248881909a8f0cb7936c496ca469e.png)](#2026-10-07-screenshot-2026-10-08-001628httpshalflifehackclub)
+2. [2026-10-07: 6th October 2026 - Day 1 - Research, Feasibility & Component Selection](#2026-10-07-6th-october-2026---day-1---research-feasibility-c)
 3. [2026-10-11: Microcontroller Research & Selection](#2026-10-11-microcontroller-research-selection)
 4. [2026-10-11: Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time.](#2026-10-11-firstly-i-learnt-how-to-use-the-software-easyeda-)
 5. [2026-10-11: I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfec](#2026-10-11-i-was-thinking-it-was-my-fault-that-i-didnt-save-)
@@ -58,26 +58,36 @@ easyEDA home page after i logged in:
 
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/770e7d4629452cbfc721bc2dc0ce2c73c29a8d4cb5a4a188413fe8f36fb9c078.png)
 
-### 2026-10-07: ![Screenshot 2026-10-08 001628](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b51d8f759856a115e7db76b8017f79a4948248881909a8f0cb7936c496ca469e.png)
+### 2026-10-07: 6th October 2026 - Day 1 - Research, Feasibility & Component Selection
 
 **5.03h**
 
+6th October 2026 - Day 1 - Research, Feasibility & Component Selection
+
+Learned about the ESP32-S3 and its uses as a main processor with 2 Wi-Fi/BLE cores and SPI/I2C devices.
+
+Research on the CC1101 Sub-1GHz Module and how it can receive and transmit 315/433/868/915MHz waves.
+
+7th October 2026 - Day 2 - ESP32-S3 Pinouts & Module Understanding
+
+Today was a purely educational day. I watched YouTube videos and read through technical documents to understand how the ESP32-S3 works and how compatible the modules are. I mapped the ESP32-S3
+
+Placed All the parts what i needed-
+
 ![Screenshot 2026-10-08 001628](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b51d8f759856a115e7db76b8017f79a4948248881909a8f0cb7936c496ca469e.png)
 
+USB type C conection-
 ![Screenshot 2026-10-08 001851](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/7b8ddc35e1d77db49897156d4b4080137fec8c9b185080c05967d9a9c3165ad5.png)
+Type C to harging module:
 
 ![Screenshot 2026-10-08 002258](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/e5ab1ee2fe1116a881521700628425e72ca12395b650c4259657b3f68bf0a892.png)
-
+The whole schamatic:
 ![Screenshot 2026-10-08 004701](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/8aa19d0ea27beafbd5a2e2aa61fb69fad2b907afc77e15b277c005f42c52054f.png)
+Views of the product im going to use:
 
 ![Screenshot 2026-10-08 005805](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/cb79f3f0e80d9f62c57e7ad748a6346bad425129c0b61778bfe358193b47937d.png)
 
 ![Screenshot 2026-10-08 015326](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/7a7299d63408fa99f781a04c5f0f39b93e988257aaa7764f06c9e9425d8e6e78.png)
-
-October 7, 2026: Day 2 - Deep Dive into ESP32-S3 Pinouts & Module Workflows
-Session Summary:
-
-Dedicated today's session entirely to technical learning and understanding module compatibility via YouTube tutorials and technical documentation. Focus was placed on mapping out the ESP32-S3 architecture and making sure I don't accidentally assign peripheral functions to restricted or strapping pins.
 
 Key Learnings & Progress:
 
