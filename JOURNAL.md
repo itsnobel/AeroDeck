@@ -183,9 +183,11 @@ This is how it looks
 **0.85h**
 
 My finishing part is here, And now the work is to submit the PCb design!
+I solved some unrouted part problems that goes to a week 2 session. I did those manually. i make 3v3 and GND  mesh more wide than others. then i ass some little changes regarding how far each wires would from each other.
 
+the 2d view-
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/e0a35763292b8ad394b1187f7d8fa6e283841a09eb4cc136a33f6170df711d25.png)
-
+The 3d view-
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b052a5c441c3c83f1b82e77c75db664142b92af90caf289fba1772ef07818918.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/707efd6a-9986-4a5f-bada-498f0677ad04/video.mp4)
