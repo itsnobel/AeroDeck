@@ -16,7 +16,7 @@
 
 1. [2026-10-07: October 6th 2026 - Day 1 Research, Feasibility & Component Selection](#2026-10-07-october-6th-2026---day-1-research-feasibility-com)
 2. [2026-10-07: 6th October 2026 - Day 1 - Research, Feasibility & Component Selection](#2026-10-07-6th-october-2026---day-1---research-feasibility-c)
-3. [2026-10-11: Microcontroller Research & Selection](#2026-10-11-microcontroller-research-selection)
+3. [2026-10-11: Limitations of the ESP32-S3: Initially I had planned to use the popular ESP32-S3, but this did not meet the specifications of the high level power savings, modern processor and latest wireless protoco](#2026-10-11-limitations-of-the-esp32-s3-initially-i-had-plann)
 4. [2026-10-11: Firstly I learnt how to use the software EasyEda from youtube tutorial as i was facing some confusuon and problems. then As i forgot to save the project last time, i saved it after 10 mins each time.](#2026-10-11-firstly-i-learnt-how-to-use-the-software-easyeda-)
 5. [2026-10-11: I was thinking it was my fault that i didnt save my project. But it was the damn EasyEda system that doenst save Schematic PCb design. So i have to start from zero again, this time i did wiring perfec](#2026-10-11-i-was-thinking-it-was-my-fault-that-i-didnt-save-)
 6. [2026-10-11: My finishing part is here, And now the work is to submit the PCb design!](#2026-10-11-my-finishing-part-is-here-and-now-the-work-is-to-)
@@ -115,16 +115,21 @@ USB Type-C Connection: The USB Type-C connector was connected using pull down re
 
 [Timelapse](https://lookout.hackclub.com/api/media/41ae876c-6752-4e38-bf58-a8983e643a9f/video.mp4)
 
-### 2026-10-11: Microcontroller Research & Selection
+### 2026-10-11: Limitations of the ESP32-S3: Initially I had planned to use the popular ESP32-S3, but this did not meet the specifications of the high level power savings, modern processor and latest wireless protoco
 
 **1.18h**
 
-Microcontroller Research & Selection
-Limitations of ESP32-S3: Initially, the popular ESP32-S3 was considered, but it fell short of the advanced power efficiency, modern processor architecture, and cutting-edge wireless standards required for a dedicated handheld multi-protocol RF auditing device.
+Limitations of the ESP32-S3: Initially I had planned to use the popular ESP32-S3, but this did not meet the specifications of the high level power savings, modern processor and latest wireless protocols needed.
 
-Budget & Optimization: The search focused on finding a chip that could deliver superior performance, low power consumption, and modern connectivity while strictly adhering to the $65 Hack Club budget.
+Searching for a better option: I was looking for a chip that would provide better performance, with low power usage and modern connectivity within the $65 budget set by Hack Club.
 
-Selecting the ESP32-C5-WROOM-1: Ultimately, the ESP32-C5 was chosen as the core microcontroller. Its modern RISC-V single-core architecture, native support for Wi-Fi 6 (802.11ax) and Bluetooth 5, and seamless compatibility with the sub-1GHz CC1101 module made it the ideal brain for the project.
+ESP32-C5-WROOM-1: As a result I chose the ESP32-C5 as my microcontroller. This has a modern RISC-V single core processor, built in Wi-Fi 6 (802.11ax) and Bluetooth 5 connectivity, and is compatible with the sub-1GHz CC1101 module.
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/3cafa428fd85ad4ba8b261e889f0cc196101b059b881225290392619a96be26d.png)
+
+but i researched wide range microcontrollers including Raspberry pi
+
+![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/1b92e0e3413b8dabc386643ffe7eea3fe5ac632a7a85a2f7331b56bad50f0c88.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/8ffb1def-f0a7-42ca-adf9-ed6b1d5292a1/video.mp4)
 
