@@ -22,7 +22,7 @@
 6. [2026-10-11: My finishing part is here, And now the work is to submit the PCb design!](#2026-10-11-my-finishing-part-is-here-and-now-the-work-is-to-)
 7. [2026-11-13: In this session i was going to change the whole design, though it will work the same and get extra new features. I am a beginner so i cant solder tough chips. so i willl soldier headers then attach to](#2026-11-13-in-this-session-i-was-going-to-change-the-whole-d)
 8. [2026-11-14: In this session i researched again what else things i can bring to the Aerodeck to make that more and more powerful I put a NEO-6M (GPS receiver module), NRF24L01+ PA+LNA module, VS1838B (Infrared rec](#2026-11-14-in-this-session-i-researched-again-what-else-thin)
-9. [2026-11-17: I researched again and again](#2026-11-17-i-researched-again-and-again)
+9. [2026-11-17: I researched again and again if anything goes wrong in my project. as Im a beginner, i still use Ai for research. I used gemini for deep research in this schamatic. I found a lot of wrong pinout in my](#2026-11-17-i-researched-again-and-again-if-anything-goes-wro)
 
 ## Design
 
@@ -251,10 +251,32 @@ And I updated all the sessions I had already entered, modified them by adding te
 
 [Timelapse](https://lookout.hackclub.com/api/media/1c7eee67-f047-414b-ad92-e0573ce4f527/video.mp4)
 
-### 2026-11-17: I researched again and again
+### 2026-11-17: I researched again and again if anything goes wrong in my project. as Im a beginner, i still use Ai for research. I used gemini for deep research in this schamatic. I found a lot of wrong pinout in my
 
 **6.47h**
 
-I researched again and again
+I researched again and again if anything goes wrong in my project. as Im a beginner, i still use Ai for research. I used gemini for deep research in this schamatic. I found a lot of wrong pinout in my design, some pin should be unconnected, some digital pins should be pulled up by 10k ohm, some needed to pull down to keep them high or low state.
+
+Deep research by gemini-
+
+![Screenshot 2026-11-15 000434](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/1dc4f7d2902f51d623f7156982776889b20664662ca60435e2124aab93858cd7.png)
+
+![Screenshot 2026-11-15 000427](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/e340eebaf33e1a6428a2f3d1badb67b2b73f5368caea7adf19c09cdfb0f5ef29.png)
+
+And i used 5 push buttons for navigation. firstly that required 5 GPOI pins. But ll learnt about resistor ladder method and now i willl be able to use 1 GPIO pin for 5 buttons that will make the Whole thing way much  more effective.
+
+![Screenshot 2026-11-16 152942](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/d545dc43c2031de9eda76a58774c19e0fbd5ee4c78b4d1cc7e74b29d2a0092ca.png)
+
+![Screenshot 2026-11-16 233339](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/d0cda2e71cc495a04941dff15189a32f37b6e93fae4ebf9aa8b9354ae58757f2.png)
+
+![Screenshot 2026-11-16 205726](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/1a77201d37b4d6036c88fb4de1e86110b8cfbf0d9574b12024e0e0d96cd26e27.png)
+and this time i separated the whole battery system from the Main PCB design. Now the battery pin wlll have 3 pins, first terminal will deliver +5.3V, 2nd  is battery level indicator, 3rd one is GND. i used TP4055 for charging and DC-DC MT3608 for 5.3 boost converter. Now the whole system will work perfectly without being part of the main PCB design.
+Also i have addend a tons of pull up and pull down resistor where necessary. Added some cdapasitors to overcome electrical spikes and noises. almost each of the modules have at least one of them.
+
+![Screenshot 2026-11-16 185220](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/226114382bd8b86d02d9469fb500f8615ab5a608c49e75f931fe24361a4fa000.png)
+
+The finished schematic-
+
+![Screenshot 2026-11-17 094346](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/6e297468fd0fa5f2b46cac63f37bf7e8350764e44bd023459985d08a26c24d01.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/98d22916-76bd-4f49-8d0b-ef3397389080/video.mp4)
