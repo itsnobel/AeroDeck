@@ -1,43 +1,77 @@
-// ============================================================================
-// Aerodeck V2 - Shared SPI2 Bus Manager
-// ============================================================================
-// Owns:
-//   - SPI2 bus initialization (SCLK=6, MOSI=7, MISO=2)
-//   - A FreeRTOS mutex guarding ALL transactions across TFT/SD/CC1101/NRF24
-//   - CS pin state (all HIGH at idle)
-//   - GPIO13/GPIO14 reclamation from native USB Serial/JTAG
-// ============================================================================
 #pragma once
+
 #include <Arduino.h>
 #include <SPI.h>
+#include <freertos/FreeRTOS.h>
+#include <freertos/semphr.h>
+#include "config_pins.h"
 
-namespace BusManager {
+enum ButtonEvent : uint8_t {
+  BTN_EVT_NONE = 0,
+  BTN_EVT_SELECT,
+  BTN_EVT_LEFT,
+  BTN_EVT_UP,
+  BTN_EVT_RIGHT,
+  BTN_EVT_DOWN
+};
 
-// Initialize the SPI2 bus, the SPI mutex, and all CS pins.
-// Call exactly once before any SPI device is touched.
-// Returns false only if the mutex cannot be allocated.
-bool begin();
+class BusManager {
+public:
+  BusManager();
+  ~BusManager();
 
-// Acquire / release the SPI bus mutex. ALWAYS check lock()'s return value.
-bool lock(uint32_t timeoutMs = 100);
-void unlock();
+  bool begin();
 
-// Underlying SPI object (pass to LovyanGFX, RadioLib, RF24, etc.)
-SPIClass& spi();
+  // SPI2 mutual exclusion across TFT, SD, CC1101, and NRF24
+  bool lockSpi(TickType_t timeoutTicks = portMAX_DELAY);
+  bool tryLockSpi(uint32_t timeoutMs);
+  void unlockSpi();
 
-// CS helpers. Caller MUST hold the lock while using these.
-void csAllHigh();
-void csLow(uint8_t pin);
-void csHigh(uint8_t pin);
+  // Assert all CS pins HIGH, then drive only activeCsPin LOW (or -1 for all HIGH)
+  void releaseAllCs();
+  void selectOnlyCs(int activeCsPin);
 
-// SPI transaction helpers (pair beginTransaction/endTransaction while locked).
-void beginTransaction(const SPISettings& settings);
-void endTransaction();
+  // Analog inputs (ADC1)
+  uint16_t readButtonMilliVolts();
+  void updateInputs();
+  ButtonEvent consumeButtonEvent();
+  const char* buttonName(ButtonEvent ev) const;
 
-// Status
-bool isReady();
+  float readBatteryVolts();
+  uint8_t readBatteryPercent();
 
-// Dump pin states + heap to Serial (for sanity checks).
-void printDiagnostics();
+private:
+  SemaphoreHandle_t _spiMutex = nullptr;
+  bool _spiStarted = false;
 
-} // namespace BusManager
+  ButtonEvent _debouncedBtn = BTN_EVT_NONE;
+  ButtonEvent _lastRawBtn = BTN_EVT_NONE;
+  uint32_t _lastChangeMs = 0;
+  ButtonEvent _pendingEvent = BTN_EVT_NONE;
+
+  void remapUsbJtagPins();
+  void initAllCsHigh();
+  ButtonEvent classifyButtonVoltage(uint16_t mv) const;
+};
+
+class SpiGuard {
+public:
+  explicit SpiGuard(BusManager& bus, TickType_t timeoutTicks = portMAX_DELAY)
+      : _bus(bus), _locked(bus.lockSpi(timeoutTicks)) {}
+
+  ~SpiGuard() {
+    if (_locked) {
+      _bus.releaseAllCs();
+      _bus.unlockSpi();
+    }
+  }
+
+  SpiGuard(const SpiGuard&) = delete;
+  SpiGuard& operator=(const SpiGuard&) = delete;
+
+  bool acquired() const { return _locked; }
+
+private:
+  BusManager& _bus;
+  bool _locked;
+};
