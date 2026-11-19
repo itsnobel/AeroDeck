@@ -37,12 +37,12 @@ Aerodeck V1: Only CC1101 sub-gigahertz module available. Aerodeck V2: Dual band 
   <img width="1455" height="942" alt="Screenshot 2026-11-14 235020" src="https://github.com/user-attachments/assets/263833dd-8b98-4b74-9a1a-63f7b709c8d7" />
 
 
-### 2. PCB Design / Routing Comparison
+### 2. PCB Design and Routing Comparison
 * **Aerodeck V1 PCB Design:**
   <img width="1386" height="938" alt="Screenshot 2026-10-13 091513" src="https://github.com/user-attachments/assets/7fe98b5d-4317-4ac4-ab2a-7d56045bbf3b" />
 
-
 * **Aerodeck V2 PCB Design:**
+
   <img width="687" height="759" alt="image" src="https://github.com/user-attachments/assets/e29cec05-d992-47d3-99d5-4f3c5f75f971" />
 
 
@@ -52,6 +52,8 @@ Aerodeck V1: Only CC1101 sub-gigahertz module available. Aerodeck V2: Dual band 
 
 
 * **Aerodeck V2 2D View:**
+
+
   <img width="728" height="747" alt="Screenshot 2026-11-18 122935" src="https://github.com/user-attachments/assets/a084a8a3-0ea0-4890-82c6-77600e03e258" />
 
   <img width="730" height="739" alt="Screenshot 2026-11-18 122959" src="https://github.com/user-attachments/assets/66a675a3-5d66-4dd4-883d-80012061e9ea" />
@@ -91,19 +93,23 @@ Strong decoupling of RF circuitry To stop brown-out resets while transmitting, c
 ---
 
 ## BOM
-Item,Qty,Supplier,Cost/item,Total Cost,link
-ESP32-C5-DevKit V2.0,1,RoboticsBD,$11.98,$11.98,https://store.roboticsbd.com/internet-of-things-iot/4031-esp32-c5-dual-band-wifi-6-development-board-robotics-bangladesh.html
-CC1101 Sub-1GHz RF Module,1,RoboticsBD,$5.55,$5.55,https://store.roboticsbd.com/communication-module/2359-cc1101-500kbps-wireless-transceiver-module-rf-433mhz-spi-interface-sma-antenna-robotics-bangladesh.html
-"1.8"" ST7735 SPI TFT (with SD slot)",1,RoboticsBD,$4.81,$4.81,https://store.roboticsbd.com/display/699-tft-lcd-display-module-st7735s-128x160-robotics-bangladesh.html
-TP4056 LiPo Battery Charger Module,1,RoboticsBD,$0.30,$0.30,https://store.roboticsbd.com/robotics-parts/919-tp4056-lithium-battery-charger-module-with-protection-dual-functions-robotics-bangladesh.html
-3.7V  Battery,1,RoboticsBD,$2.25,$2.25,https://store.roboticsbd.com/battery-charger/3085-18650-geepas-37v-3000mah-li-ion-battery-button-top-robotics-bangladesh.html
-"Passive Components (Resistors, Capacitors, Switch)",5,RoboticsBD,$0.12,$0.60,https://store.roboticsbd.com/resistor/243-10k-ohm-carbon-film-resistor-pack-of-10-robotics-bangladesh.html
-NRF24L01+ PA+LNA Module,1,RoboticsBD,$2.72,$2.72,https://store.roboticsbd.com/electronics-module/400-nrf24l01palna-24ghz-sma-antenna-wireless-transceiver-module-robotics-bangladesh.html
-ATK-NEO-6M GPS Module,1,RoboticsBD,$3.86,$3.86,https://store.roboticsbd.com/electronics-module/797-u-blox-neo-6m-gps-module-robotics-bangladesh.html
-Tactile Push buttons,5,RoboticsBD,$0.05,$0.25,https://store.roboticsbd.com/electronic-switches/1415-push-button-4-pin-robotics-bangladesh.html
-VS1838B + 5mm 940nm IR LED + 2N2222A,3,RoboticsBD,$0.18,$0.54,https://store.roboticsbd.com/sensors/1191-ir-receiver-shielded-robotics-bangladesh.html
-MT3608,1,RoboticsBD,$0.65,$0.65,https://store.roboticsbd.com/power-module-adapter/3841-mt3608-type-c-dc-dc-step-up-boost-converter-module-robotics-bangladesh.html
-Estimated total shipping,1,,,$2.00,
+## Bill of Materials (BOM)
+
+| # | Item | Qty | Supplier | Cost / Item | Total Cost | Link |
+| :-: | :--- | :-: | :--- | :---: | :---: | :--- |
+| 1 | ESP32-C5-DevKit V2.0 | 1 | RoboticsBD | $11.98 | $11.98 | [Link](https://store.roboticsbd.com/internet-of-things-iot/4031-esp32-c5-dual-band-wifi-6-development-board-robotics-bangladesh.html) |
+| 2 | CC1101 Sub-1GHz RF Module | 1 | RoboticsBD | $5.55 | $5.55 | [Link](https://store.roboticsbd.com/communication-module/2359-cc1101-500kbps-wireless-transceiver-module-rf-433mhz-spi-interface-sma-antenna-robotics-bangladesh.html) |
+| 3 | 1.8" ST7735 SPI TFT (with SD slot) | 1 | RoboticsBD | $4.81 | $4.81 | [Link](https://store.roboticsbd.com/display/699-tft-lcd-display-module-st7735s-128x160-robotics-bangladesh.html) |
+| 4 | TP4056 LiPo Battery Charger Module | 1 | RoboticsBD | $0.30 | $0.30 | [Link](https://store.roboticsbd.com/robotics-parts/919-tp4056-lithium-battery-charger-module-with-protection-dual-functions-robotics-bangladesh.html) |
+| 5 | 3.7V Battery | 1 | RoboticsBD | $2.25 | $2.25 | [Link](https://store.roboticsbd.com/battery-charger/3085-18650-geepas-37v-3000mah-li-ion-battery-button-top-robotics-bangladesh.html) |
+| 6 | Passive Components (Resistors, Capacitors, Switch) | 5 | RoboticsBD | $0.12 | $0.60 | [Link](https://store.roboticsbd.com/resistor/243-10k-ohm-carbon-film-resistor-pack-of-10-robotics-bangladesh.html) |
+| 7 | NRF24L01+ PA+LNA Module | 1 | RoboticsBD | $2.72 | $2.72 | [Link](https://store.roboticsbd.com/electronics-module/400-nrf24l01palna-24ghz-sma-antenna-wireless-transceiver-module-robotics-bangladesh.html) |
+| 8 | ATK-NEO-6M GPS Module | 1 | RoboticsBD | $3.86 | $3.86 | [Link](https://store.roboticsbd.com/electronics-module/797-u-blox-neo-6m-gps-module-robotics-bangladesh.html) |
+| 9 | Tactile Push buttons | 5 | RoboticsBD | $0.05 | $0.25 | [Link](https://store.roboticsbd.com/electronic-switches/1415-push-button-4-pin-robotics-bangladesh.html) |
+| 10 | VS1838B + 5mm 940nm IR LED + 2N2222A | 3 | RoboticsBD | $0.18 | $0.54 | [Link](https://store.roboticsbd.com/sensors/1191-ir-receiver-shielded-robotics-bangladesh.html) |
+| 11 | MT3608 | 1 | RoboticsBD | $0.65 | $0.65 | [Link](https://store.roboticsbd.com/power-module-adapter/3841-mt3608-type-c-dc-dc-step-up-boost-converter-module-robotics-bangladesh.html) |
+| 12 | Estimated total shipping | 1 | — | — | $2.00 | — |
+| | **Grand Total** | | | | **$35.51** | |
 ---
 
 ## Repository Structure
