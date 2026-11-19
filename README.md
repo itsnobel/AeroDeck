@@ -118,5 +118,7 @@ Strong decoupling of RF circuitry To stop brown-out resets while transmitting, c
 * /GERBER — Manufacturing-ready Gerber export packages(.zip).
 * /firmware — Starter code, pin definitions, and hardware initialization scripts for the ESP32-C5.
 
+**Encloser for AERODECK will be made in week-2 CAD project in HalfLifew**
+
 *Built as an open-source educational hardware project for Hack Club.*
 
