@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 1 | 36.28h | 11 |
+| Week 1 | Tier 1 | 36.3h | 11 |
 
 ## Contents
 
@@ -184,7 +184,7 @@ This is how it looks
 
 ### 2026-10-11: My finishing part is here, And now the work is to submit the PCb design!
 
-**0.85h**
+**0.87h**
 
 My finishing part is here, And now the work is to submit the PCb design!
 I solved some unrouted part problems that goes to a week 2 session. I did those manually. i make 3v3 and GND  mesh more wide than others. then i ass some little changes regarding how far each wires would from each other.
@@ -195,6 +195,8 @@ The 3d view-
 ![image](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/b052a5c441c3c83f1b82e77c75db664142b92af90caf289fba1772ef07818918.png)
 
 [Timelapse](https://lookout.hackclub.com/api/media/707efd6a-9986-4a5f-bada-498f0677ad04/video.mp4)
+
+[Timelapse](https://lookout.hackclub.com/api/media/1f177b80-2bc2-4dbd-be8d-52803fcc3c1b/video.mp4)
 
 ### 2026-11-13: In this session i was going to change the whole design, though it will work the same and get extra new features. I am a beginner so i cant solder tough chips. so i willl soldier headers then attach to
 
