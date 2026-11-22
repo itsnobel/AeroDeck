@@ -344,4 +344,3 @@ Then i went to write the firmware. as i have so many parts in my build, i sepera
 
 ![Screenshot 2026-11-19 091807](https://halflife.hackclub-assets.com/sessions/kLADEc5sK2Fovm0wktiefGOUmtv4XzPH/789d52599884c07238edccab73eead6d3a72097d35f0d760ff7af720bf086986.png)
 
-still firmware part is not finished
